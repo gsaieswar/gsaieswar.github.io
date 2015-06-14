@@ -9,12 +9,19 @@ body, html {
   right: 5em;
 }
 
+.img-me {
+  border-radius: 100%;
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
 .container h1 {
   font-family: Lato;
   font-size: 3em;
   color: silver;
   margin-bottom: 0px;
-} 
+}
 
 .container h3 {
   font-family: Lato;
