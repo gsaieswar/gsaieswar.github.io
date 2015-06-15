@@ -14,8 +14,7 @@ body, html {
   display: block;
   margin: auto;
   width: 50%;
-  bottom: 3em;
-  right: 5em;
+  float: right;
 }
 
 .container h1 {
