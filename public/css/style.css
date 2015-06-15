@@ -7,7 +7,6 @@ body, html {
   position: absolute;
   bottom: 3em;
   right: 5em;
-  float: right;
 }
 
 .img-me {
@@ -15,7 +14,6 @@ body, html {
   display: block;
   margin: auto;
   width: 50%;
-  float: right;
 }
 
 .container h1 {
