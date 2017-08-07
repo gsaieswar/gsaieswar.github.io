@@ -1,51 +1,72 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <title>Sai Eswar &middot; gsaieswar</title>
-    <meta name="author" content="gsaieswar">
-    <meta name="description" content="Sai Eswar">
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="keywords" content="gsaieswar, Sai Eswar, iit roorkee, Sai Eswar Garapati, python, github, github-pages">
-    <!-- Enable responsiveness on mobile devices-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<head>
+	<meta charset="utf-8" />
+	<link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png" />
+	<link rel="icon" type="image/png" href="../assets/img/favicon.png" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-    <link rel="icon" href="/blog/public/favicon.ico">
-    <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Lato:100,100i/Open+Sans:300,300i">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/chinchang/hint.css/master/hint.min.css">
-    <link rel="stylesheet" href="/public/css/style.css">
+	<title>Material Dashboard by Creative Tim</title>
 
-  </head>
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
 
-  <body>
+    <!-- Bootstrap core CSS     -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 
-    <div class="container">
-      <img class="img-me" src="images/me.jpg" alt="Me" />   
-      <h1>Sai Eswar</h1>
-      <h3>Software Developer @ <span class="hint--bottom" data-hint="garsa11">CA Technologies</span></h3>
+    <!--  Material Dashboard CSS    -->
+    <link href="assets/css/material-dashboard.css?v=1.2.0" rel="stylesheet"/>
 
-      <ul>
-        <li><b><a href="https://github.com/gsaieswar">GITHUB</a></b></li>
-        <li><b><a href="/about">BLOG</a></b></li>
-        <li><b><a href="/about">ABOUT</a></b></li>
-      <ul>
+    <!--  CSS for Demo Purpose, don't include it in your project     -->
+    <link href="assets/css/demo.css" rel="stylesheet" />
 
-      <span>
-      <a href="https://twitter.com/gsaieswar" class="twitter-follow-button" data-show-count="false">Follow @gsaieswar</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-      </span>
-    </div>
+    <!--     Fonts and icons     -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300|Material+Icons' rel='stylesheet' type='text/css'>
 
-    <!-- Google Analytics -->
+    <!-- Polyfill for older browsers -->
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js" type="text/javascript"></script>
+
+    <!-- 2. Configure SystemJS -->
+    <script src="systemjs.config.js"></script>
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-48537-1', 'gsaieswar.github.io');
-      ga('send', 'pageview');
-
+    System.import('app').catch(function(err){ console.error(err); });
     </script>
 
-  </body>
+</head>
+<body>
+    <base href='/'>
+    <my-app>
+	  	<div class="loader">
+	    	<svg class="circular" viewBox="25 25 50 50">
+	      		<circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
+	    	</svg>
+	  	</div>
+	</my-app>
+</body>
+<!--   Core JS Files   -->
+<script src="assets/js/jquery-3.1.0.min.js" type="text/javascript"></script>
+<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="assets/js/arrive.min.js"></script>
+<script src="assets/js/material.min.js" type="text/javascript"></script>
+
+<!--  Charts Plugin -->
+<script src="assets/js/chartist.min.js"></script>
+
+<!--  Notifications Plugin    -->
+<script src="assets/js/bootstrap-notify.js"></script>
+
+<!--  Google Maps Plugin    -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY"></script>
+
+<!-- Material Dashboard javascript methods -->
+<script src="assets/js/material-dashboard.js?v=1.2.0"></script>
+
+<!-- Material Dashboard DEMO methods, don't include it in your project! -->
+<script src="assets/js/demo.js"></script>
+
 </html>
